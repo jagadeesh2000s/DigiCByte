@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 300px;
+  }
+  .logo h2 {
+    color: white;
+    font-family:'Poppins',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom:0;
+  }
+  .logo span {
+    display: block;
+    color: white;
+    font-size: 20px; 
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin-left: 30px;
+    font-weight: bold;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px
+
+  }
+
+#bg-img{
+    background-image: url(images/DigiCByteImage2.jpg);
+    background-size: cover; 
+    background-position: right;
+    border-bottom-right-radius: 130px;   
+    width:100%;
+    height: 950px;
+}
+#bg-img h1{
+    font-size: 4rem;
+}
+#bg-img p{
+    font-size:20px;
+}
+
+.content-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    height: 100vh;
+    color: white;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 25%;
+    font-size: large;
+    font-family:'Poppins',sans-serif;
+}
+.div2 h1{
+    color: #DD183B;
+}
+
+.card {
+    width: 300px;
+    height: 370px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 40px; 
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+.center-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section img,
+.card-section svg{
+    background-color: #FFEDE6;
+    padding: 7px;
+    border-radius: 50px;
+    fill: #DD183B;
+}
+
+
+.card-section-1 .card{
+    width: 400px;
+    height: 400px;
+}
+.card-section-1 .card-header{
+    border-bottom:0;
+    padding: 0;
+
+}
+
+.card-section-2 .card{
+height: 220px;
+width: 350px;
+margin:0 30px;
+padding: 10px;
+}
+
+.card-section-2 .card-title{
+padding:15px 0;
+text-align: left;
+font-size: 25px;
+}
+
+.card-section-2 .card-text{
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.card-section-2 .card-body{
+    position: absolute;
+}
+
+.card-section-2 svg{
+    background-color: #DD183B;
+    padding: 10px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 50px;
+    fill: white;
+}
+
+.card-section-3 .card{
+    width: 400px;
+    height: 330px;
+    box-shadow:3px 3px 10px grey;
+}
+
+.card-section-3 .card-header{
+    border-bottom:0;
+    padding: 16px 16px;
+}
+
+/* .card-section-3 button{
+  display: flex;
+  align-items: center;
+} */
+.contactUs-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DD183B;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 30px;    
+    font-size: 40px;
+    padding: 30px 0 0 0;
+
+}
+.contactUs-section h1,
+.contactUs-section h4,
+.contactUs-section button{
+    margin-bottom: 20px;
+}
+.contactUs-section button:hover{
+    background-color: white;
+    color: #DD183B;
+}
+.footer-section,
+.footer-section li,
+.footer-section a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:40px 0;
+    margin-bottom: 0;
+}
+.footer-section h3,
+.footer-section p,
+.footer-section ul {
+    text-align: left;
+    margin: 0;
+    padding:10px 0 10px 0;
+}
+.footer-bg{
+    background-color: #DD183B;
+
+}
+
+.sm-icons li,
+.sm-icons svg{
+    display: inline;
+    fill: white;
+}
+
+.copy-footer{
+    background-color: #DD183B;
+    padding:30px 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family:'Poppins',sans-serif;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+
